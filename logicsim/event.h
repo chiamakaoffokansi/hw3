@@ -9,8 +9,10 @@ struct Event
     char state;
 };
 
-typedef struct EventLess {
-        //write the operator() required to make this a functor that compares Events by time
-} EventLess;
-	
+struct EventLess {
+    bool operator()(Event* e1, Event* e2) const {
+        return e1->time > e2->time;  // smaller time should come first and will point to accessors
+    }
+};
+
 #endif

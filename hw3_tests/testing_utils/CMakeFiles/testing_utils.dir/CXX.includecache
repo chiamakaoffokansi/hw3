@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/misc_utils.cpp
+/work/hw3/hw3/hw3_tests/testing_utils/misc_utils.cpp
 misc_utils.h
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/misc_utils.h
+/work/hw3/hw3/hw3_tests/testing_utils/misc_utils.h
 sys/resource.h
 -
 iostream
@@ -18,7 +18,7 @@ sstream
 cstring
 -
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/misc_utils.h
+/work/hw3/hw3/hw3_tests/testing_utils/misc_utils.h
 string
 -
 vector
@@ -28,13 +28,13 @@ set
 sstream
 -
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/random_generator.cpp
+/work/hw3/hw3/hw3_tests/testing_utils/random_generator.cpp
 random_generator.h
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/random_generator.h
+/work/hw3/hw3/hw3_tests/testing_utils/random_generator.h
 limits
 -
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/random_generator.h
+/work/hw3/hw3/hw3_tests/testing_utils/random_generator.h
 random
 -
 vector
@@ -46,7 +46,7 @@ string
 cstdint
 -
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/rang.h
+/work/hw3/hw3/hw3_tests/testing_utils/rang.h
 unistd.h
 -
 windows.h
@@ -66,53 +66,11 @@ cstring
 iostream
 -
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/runtime_evaluator.cpp
-runtime_evaluator.h
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/runtime_evaluator.h
-misc_utils.h
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/misc_utils.h
-rang.h
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/rang.h
-iostream
--
-cassert
--
-cmath
--
-cstring
--
-sstream
--
-iomanip
--
-map
--
-algorithm
--
-
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/runtime_evaluator.h
-ctime
--
-chrono
--
-functional
--
-vector
--
-memory
--
-set
--
-libperf.h
--
-random_generator.h
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/random_generator.h
-
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/user_code_runner.cpp
+/work/hw3/hw3/hw3_tests/testing_utils/user_code_runner.cpp
 user_code_runner.h
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/user_code_runner.h
+/work/hw3/hw3/hw3_tests/testing_utils/user_code_runner.h
 rang.h
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/rang.h
+/work/hw3/hw3/hw3_tests/testing_utils/rang.h
 iostream
 -
 sstream
@@ -122,7 +80,7 @@ fstream
 kwsys/SystemTools.hxx
 -
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/user_code_runner.h
+/work/hw3/hw3/hw3_tests/testing_utils/user_code_runner.h
 string
 -
 vector
@@ -160,12 +118,6 @@ sys/stat.h
 unistd.h
 -
 stdarg.h
--
-stdio.h
--
-
-testing_utils/libperf/./libperf.h
-stdint.h
 -
 stdio.h
 -

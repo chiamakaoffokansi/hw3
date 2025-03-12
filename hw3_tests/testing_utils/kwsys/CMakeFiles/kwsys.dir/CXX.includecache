@@ -1,18 +1,18 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
 #IncludeRegexComplain: ^$
 
-#IncludeRegexTransform: ^([ 	]*#[ 	]*(include|import)[ 	]*)(KWSYS_HEADER)[ 	]*\(([^),]*)\) KWSYS_HEADER(%)=<kwsys/%>
+#IncludeRegexTransform: ^([ 	]*[#%][ 	]*(include|import)[ 	]*)(KWSYS_HEADER)[ 	]*\(([^),]*)\) KWSYS_HEADER(%)=<kwsys/%>
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/Configure.hxx.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/Configure.hxx.in
 @KWSYS_NAMESPACE@/Configure.h
 -
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/Directory.cxx
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/Directory.cxx
 kwsysPrivate.h
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/kwsysPrivate.h
 kwsys/Directory.hxx
 -
 kwsys/Configure.hxx
@@ -20,11 +20,11 @@ kwsys/Configure.hxx
 kwsys/Encoding.hxx
 -
 Configure.hxx.in
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/Configure.hxx.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/Configure.hxx.in
 Directory.hxx.in
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/Directory.hxx.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/Directory.hxx.in
 Encoding.hxx.in
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/Encoding.hxx.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/Encoding.hxx.in
 string
 -
 vector
@@ -52,19 +52,19 @@ sys/types.h
 dirent.h
 -
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/Directory.hxx.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/Directory.hxx.in
 @KWSYS_NAMESPACE@/Configure.h
 -
 string
 -
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/Encoding.h.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/Encoding.h.in
 @KWSYS_NAMESPACE@/Configure.h
 -
 wchar.h
 -
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/Encoding.hxx.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/Encoding.hxx.in
 @KWSYS_NAMESPACE@/Configure.hxx
 -
 string
@@ -72,17 +72,17 @@ string
 vector
 -
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/EncodingCXX.cxx
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/EncodingCXX.cxx
 kwsysPrivate.h
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/kwsysPrivate.h
 kwsys/Encoding.hxx
 -
 kwsys/Encoding.h
 -
 Encoding.h.in
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/Encoding.h.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/Encoding.h.in
 Encoding.hxx.in
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/Encoding.hxx.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/Encoding.hxx.in
 stdlib.h
 -
 string.h
@@ -96,15 +96,15 @@ ctype.h
 shellapi.h
 -
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/FStream.cxx
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/FStream.cxx
 kwsysPrivate.h
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/kwsysPrivate.h
 kwsys/FStream.hxx
 -
 FStream.hxx.in
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/FStream.hxx.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/FStream.hxx.in
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/FStream.hxx.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/FStream.hxx.in
 @KWSYS_NAMESPACE@/Configure.hxx
 -
 @KWSYS_NAMESPACE@/Encoding.hxx
@@ -114,19 +114,19 @@ fstream
 ext/stdio_filebuf.h
 -
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/RegularExpression.cxx
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/RegularExpression.cxx
 kwsysPrivate.h
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/kwsysPrivate.h
 kwsys/RegularExpression.hxx
 -
 RegularExpression.hxx.in
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/RegularExpression.hxx.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/RegularExpression.hxx.in
 stdio.h
 -
 string.h
 -
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/RegularExpression.hxx.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/RegularExpression.hxx.in
 @KWSYS_NAMESPACE@/Configure.h
 -
 @KWSYS_NAMESPACE@/Configure.hxx
@@ -134,11 +134,11 @@ string.h
 string
 -
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/SystemTools.cxx
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/SystemTools.cxx
 fcntl.h
 -
 kwsysPrivate.h
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/kwsysPrivate.h
 kwsys/RegularExpression.hxx
 -
 kwsys/SystemTools.hxx
@@ -162,15 +162,15 @@ sstream
 vector
 -
 Directory.hxx.in
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/Directory.hxx.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/Directory.hxx.in
 Encoding.hxx.in
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/Encoding.hxx.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/Encoding.hxx.in
 FStream.hxx.in
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/FStream.hxx.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/FStream.hxx.in
 RegularExpression.hxx.in
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/RegularExpression.hxx.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/RegularExpression.hxx.in
 SystemTools.hxx.in
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/SystemTools.hxx.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/SystemTools.hxx.in
 ctype.h
 -
 errno.h
@@ -246,7 +246,7 @@ stdio.h
 stdlib.h
 -
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/SystemTools.hxx.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/SystemTools.hxx.in
 @KWSYS_NAMESPACE@/Configure.hxx
 -
 iosfwd
@@ -268,7 +268,7 @@ stdarg.h
 stdio.h
 -
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/kwsysPrivate.h
 kwsys/Directory.hxx
 -
 kwsys/std/vector

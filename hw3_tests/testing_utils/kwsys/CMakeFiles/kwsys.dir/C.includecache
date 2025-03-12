@@ -1,44 +1,44 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
 #IncludeRegexComplain: ^$
 
-#IncludeRegexTransform: ^([ 	]*#[ 	]*(include|import)[ 	]*)(KWSYS_HEADER)[ 	]*\(([^),]*)\) KWSYS_HEADER(%)=<kwsys/%>
+#IncludeRegexTransform: ^([ 	]*[#%][ 	]*(include|import)[ 	]*)(KWSYS_HEADER)[ 	]*\(([^),]*)\) KWSYS_HEADER(%)=<kwsys/%>
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/Encoding.h.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/Encoding.h.in
 @KWSYS_NAMESPACE@/Configure.h
 -
 wchar.h
 -
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/EncodingC.c
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/EncodingC.c
 kwsysPrivate.h
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/kwsysPrivate.h
 kwsys/Encoding.h
 -
 Encoding.h.in
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/Encoding.h.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/Encoding.h.in
 stdlib.h
 -
 windows.h
 -
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/Process.h.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/Process.h.in
 @KWSYS_NAMESPACE@/Configure.h
 -
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/ProcessUNIX.c
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/ProcessUNIX.c
 kwsysPrivate.h
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/kwsysPrivate.h
 kwsys/Process.h
 -
 kwsys/System.h
 -
 Process.h.in
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/Process.h.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/Process.h.in
 System.h.in
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/System.h.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/System.h.in
 assert.h
 -
 ctype.h
@@ -74,13 +74,13 @@ unistd.h
 be/kernel/OS.h
 -
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/System.c
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/System.c
 kwsysPrivate.h
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/kwsysPrivate.h
 kwsys/System.h
 -
 System.h.in
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/System.h.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/System.h.in
 ctype.h
 -
 stddef.h
@@ -92,11 +92,11 @@ string.h
 stdio.h
 -
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/System.h.in
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/System.h.in
 @KWSYS_NAMESPACE@/Configure.h
 -
 
-/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
+/work/hw3/hw3/hw3_tests/testing_utils/kwsys/kwsysPrivate.h
 kwsys/Directory.hxx
 -
 kwsys/std/vector

@@ -83,8 +83,19 @@ Node* llfilter(Node* head, Comp pred)
     //*********************************************
     // Provide your implementation below
     //*********************************************
-
-
+if (!head) return nullptr; // base case (empty)
+    Node* filtered = llfilter(head->next, pred); // creates new node that will filter the rest of the list
+    
+    if (pred(head->val)) //conditonal check here 
+    {
+        delete head; //head will be deleted if true
+        return filtered;
+    }
+    else // else node will be kept and program will attach the filtered bit
+    {
+        head->next = filtered; //else head will be filtered value
+        return head;
+    }
 }
 
 #endif

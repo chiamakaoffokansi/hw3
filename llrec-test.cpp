@@ -87,6 +87,17 @@ int main(int argc, char* argv[])
 
     // Test out your linked list code
 
+    // In your test file (e.g., llrec_tests.cpp)
+    Node* list = nullptr;
+    Node* small = nullptr;
+    Node* large = nullptr;
+    int pivot = 10;
+
+    // Call the function with empty list
+    llpivot(list, small, large, pivot);
+
+
+
 
 
     

@@ -1,4 +1,4 @@
-# Install script for directory: /home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils
+# Install script for directory: /work/hw3/hw3/hw3_tests/testing_utils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,10 +32,14 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/kwsys/cmake_install.cmake")
-  include("/home/cs104/Desktop/hw2_sol/hw2_tests/testing_utils/libperf/cmake_install.cmake")
+  include("/work/hw3/hw3/hw3_tests/testing_utils/kwsys/cmake_install.cmake")
 
 endif()
 
